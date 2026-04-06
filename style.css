@@ -1,0 +1,72 @@
+
+      /**** tag section  ****/
+body{
+  text-align: center;
+  font-family: "Sansita Swashed", system-ui;
+  overflow-x : hidden;
+}
+
+
+h1 {
+  font-weight :bold;
+  font-size : 50px;
+}
+
+
+        /****   class section ****/
+
+ /* top-container */
+ 
+.top-container {
+  position:relative;
+}
+
+.top-container > img {
+  height :auto;
+  width: 100%;
+  opacity: 0.5;
+}
+
+.top-text{
+ position: absolute;
+ left: 20%;
+ z-index: 2;
+ bottom : 40%;
+}
+
+.btn{
+  background-color: darksalmon;
+  color: white;
+  margin-left: 50%;
+  padding :5px;
+  font-family : sans-serif;
+  border: solid black;
+  text-decoration : none;
+}
+
+/* second-container */
+
+.second-container {
+  padding-bottom :15px;
+}
+
+.second-container > h2 {
+ text-align : center;
+}
+
+.second-container > ul {
+  width: fit-content;
+  margin : auto;
+}
+
+/* third-container */
+.third-container > p {
+  font-family : sans-serif;
+  padding-bottom: 15px;
+}
+
+/* fourth-container */
+.fourth-container > p {
+  font-family : sans-serif;
+  line-height: 1.5;
+}
